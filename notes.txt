@@ -1,0 +1,9 @@
+# CREATE VIRTUAL ENVIRONMENT
+virtualenv ansible_latest
+cd ansible_latest
+source bin/activate
+pip install -r req.txt
+deactivate
+
+# CREATE ALIAS TO VENV
+alias vansible='source ~/netappod/venv/ansible/bin/activate'

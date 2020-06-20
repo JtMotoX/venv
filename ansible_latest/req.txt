@@ -1,0 +1,5 @@
+ansible
+boto3
+certifi
+#manually run the following:
+#pip install --upgrade certifi
